@@ -1,0 +1,97 @@
+/* Add your CSS styles here */
+/* This is just a placeholder */
+
+/* Example code to style the main sections */
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Example code to style the form */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}

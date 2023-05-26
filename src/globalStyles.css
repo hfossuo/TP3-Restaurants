@@ -1,0 +1,112 @@
+/* styles.css */
+/* AboutPage.css */
+
+.about-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.about-page h2 {
+    margin-bottom: 10px;
+}
+
+.about-page p {
+    margin-bottom: 10px;
+}
+
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a default font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* ContactPage.css */
+
+.contact-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.contact-page h2 {
+    margin-bottom: 10px;
+}
+
+.contact-page p {
+    margin-bottom: 10px;
+}
+
+/* Container for each page/component */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: #f8f9fa;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Input styles */
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Image styles */
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Unordered List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+ul li:before {
+    content: '•';
+    margin-right: 10px;
+}
+
+/* Other common styles */
+/* Add your own styles here */
+

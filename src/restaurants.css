@@ -1,0 +1,50 @@
+/* restaurants.css */
+
+/* Main container */
+.restaurant-container {
+    /* Set a max-width or full-width for the container */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Restaurant card */
+.restaurant-card {
+    /* Define the card styles, such as background, border, and padding */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+/* Restaurant name */
+.restaurant-name {
+    /* Style the restaurant name, such as font size, color, and spacing */
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+/* Restaurant image */
+.restaurant-image {
+    /* Style the restaurant image, such as size and border-radius */
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Restaurant description */
+.restaurant-description {
+    /* Style the restaurant description, such as font size, color, and margin */
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+/* Restaurant details */
+.restaurant-details {
+    /* Style the restaurant details section, such as background and padding */
+    background-color: #f8f8f8;
+    padding: 16px;
+}
