@@ -1,5 +1,4 @@
 // Action creator for the register request
-import {REGISTER_FAILURE, REGISTER_SUCCESS} from "./types";
 import axios from "axios";
 import { toast } from 'react-toastify';
 

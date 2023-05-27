@@ -27,8 +27,8 @@ const HomePage = () => {
 
 
     return (
-        <div className="restaurant-container">
-            <div className="restaurant-card">
+        <div >
+            <div className="restaurant-container">
                 {restaurants.map((restaurant) => (
                     <li key={restaurant.id}>
                         <h2 className="restaurant-name">{restaurant.name}</h2>
@@ -39,6 +39,10 @@ const HomePage = () => {
                     </li>
                 ))}
             </div>
+            <footer>
+                <h3>About Us</h3>
+                <p>Details about your app or company</p>
+            </footer>
         </div>
 
     );
